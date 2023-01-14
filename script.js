@@ -4,10 +4,10 @@ const settings = {
 	"url": "https://spotify23.p.rapidapi.com/search/?q=%3CREQUIRED%3E&type=multi&offset=0&limit=10&numberOfTopResults=5",
 	"method": "GET",
 	"headers": {
-		"X-RapidAPI-Key": "e34ebf2f41msh9cdeb67c1c49afap198091jsnba70c5861c2b",
+		"X-RapidAPI-Key": "13d186030fmsh4a0d2570d776891p1fe0d0jsnffd9bccac28b",
 		"X-RapidAPI-Host": "spotify23.p.rapidapi.com"
 	}
-};
+}
 
 $.ajax(settings).done(function (response) {
    //for
